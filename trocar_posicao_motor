@@ -1,3 +1,4 @@
+//campo cidade na frente
 var Destination = $('.frontSearchItem:nth-child(4)');
 var Checkin = $('.frontSearchItem:nth-child(1)');
 $(Destination).insertBefore(Checkin);
