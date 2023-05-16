@@ -1,0 +1,63 @@
+<!--
+###########
+Widget generated via stays.net
+You are free to change its formating and layout to your needs
+###########
+This widget does not update automaticaly once its Iframe was generated,
+you will need to setup a new one if content changes
+###########
+-->
+<div class="container-fluid">
+	<form role="search" id="widgetStaysSearchForm" action="https://tcd.stays.net/pt/search">
+		<input type="hidden" name="wpl" value="">
+		<div class="row">
+			<!--Destinos-->
+			<div class="col-sm col-md col-lg">
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-map" aria-hidden="true"></i></span>
+					</div>
+					<select class="form-control form-control-lg" name="groups[]" required>
+						<option value="" class="text-muted">Destinos</option>
+						<option value="645e9fc65eaf95ee32ef7540">
+							Altos da Serra
+						</option>
+						<option value="645e9f912280595714431a89">
+							Serra Catarinense
+						</option>
+						<option value="645e9ff77b531db2172869e3">
+							Águas Termais
+						</option>
+					</select>
+				</div>
+			</div>
+			<!--Arrival-->
+			<div class="col-sm col-md col-lg">
+				<div class="input-group date" id="from">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+					<input class="form-control form-control-lg" placeholder="Chegada" type="text" autocomplete="off" required>
+				</div>
+				<input name="from" value="" type="hidden">
+			</div>
+			<!--Departure-->
+			<div class="col-sm col-md col-lg">
+				<div class="input-group date" id="to">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+					</div>
+					<input class="form-control form-control-lg" placeholder="Saída" type="text" autocomplete="off" required>
+				</div>
+				<input name="to" value="" type="hidden">
+			</div>
+			<!--Submit Button-->
+			<div class="col-sm col-md col-lg">
+				<button class="btn btn-info btn-lg btn-block" type="submit">
+					<span class="fa fa-search"></span>
+					Pesquisar
+				</button>
+			</div>
+		</div>
+	</form>
+</div>
