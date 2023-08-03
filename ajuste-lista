@@ -1,0 +1,18 @@
+//ajuste manual modelo lista -- js
+$("body.__page_building #appApts .panel.panel-default .col.col-xs-12").removeClass("col-xs-12").addClass("col-lg-9");
+$("body.__page_building div#panelBook .panel-heading.search-box.py-4 form#availabilityF .col-12.px-2").removeClass("col-12").addClass("col-6");
+$('body.__page_search a.btn.btn-primary.btn-block.btn-building.hidden-xs i').before('Reserve agora')
+$('body.__page_search a.btn.btn-primary.btn-block.btn-building.visible-xs i').before('Reserve')
+$('body.__page_building a.btn.btn-block.btn-primary.my-3.visible-xs i').before('Reserve')
+
+/* ajuste manual modelo lista - css */
+body.__page_search a.btn.btn-primary.btn-block.btn-building.hidden-xs, body.__page_search a.btn.btn-primary.btn-block.btn-building.visible-xs, body.__page_building a.btn.btn-block.btn-primary.my-3.visible-xs {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+body.__page_search a.btn.btn-primary.btn-block.btn-building.hidden-xs i, body.__page_search a.btn.btn-primary.btn-block.btn-building.visible-xs i, body.__page_building a.btn.btn-block.btn-primary.my-3.visible-xs i {
+	color: white;
+	padding-left: 6px;
+}
